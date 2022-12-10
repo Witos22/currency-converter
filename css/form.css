@@ -1,0 +1,26 @@
+.form_CurrencyFieldset {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: lightcyan;
+}
+
+.form_Legend {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(97, 221, 149, 0.947);
+}
+
+.form_ConverterButton {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(97, 221, 149, 0.947);
+}
+
+.form_ConverterButton:hover {
+    background-color: rgba(97, 221, 149, 0.647);
+}

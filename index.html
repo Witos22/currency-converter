@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script defer src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+</head>
+
+<body>
+
+    <form class="js-form">
+
+        <fieldset class="form_CurrencyFieldset">
+            <legend class="form_Legend">Kalkulator walut</legend>
+            <p>
+                <label>Wybierz walutę:
+                    <select class="js-whatCurrency" type="number">
+                        <option value="4.72">Euro(EUR)</option>
+                        <option value="5.50">Funt Brytyjski(GBP)</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Podaj kwotę w PLN:
+                    <input type="number" class="js-amount" step="1" required><br>
+                </label>
+            </p>
+
+            <p>
+                <button class="form_ConverterButton js-button">Oblicz</button>
+            </p>
+
+            <p>
+                Pieniądze po przeliczeniu:
+                <strong class="js-result"></strong>
+            </p>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
